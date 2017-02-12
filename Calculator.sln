@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{71191C4F-D9AD-4738-8EA1-17EFEC7B1830}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorUnitTests", "CalculatorTests\CalculatorUnitTests.csproj", "{011905F1-1400-480E-AC9B-4B5D5C1D47E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{E7AEBD48-AFC8-41EC-82EA-8AD7184D306B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{58031CF5-5232-459C-9131-C94D9169F6B2}"
+	ProjectSection(SolutionItems) = preProject
+		Notes.txt = Notes.txt
+		RunCoverage.bat = RunCoverage.bat
+		RunCoverageReport.bat = RunCoverageReport.bat
+		RunTests.bat = RunTests.bat
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinformsUI", "WinformsUI\WinformsUI.csproj", "{D07F0ABB-4ED7-42DF-845A-D678CA5C1CC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfUI", "WpfUI\WpfUI.csproj", "{D01F8DD0-40F3-48D8-8D92-5EB479AE45D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorAcceptanceTests", "CalculatorAcceptanceTests\CalculatorAcceptanceTests.csproj", "{68D40615-07A7-42BF-B3AE-75F99A23C098}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71191C4F-D9AD-4738-8EA1-17EFEC7B1830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71191C4F-D9AD-4738-8EA1-17EFEC7B1830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71191C4F-D9AD-4738-8EA1-17EFEC7B1830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71191C4F-D9AD-4738-8EA1-17EFEC7B1830}.Release|Any CPU.Build.0 = Release|Any CPU
+		{011905F1-1400-480E-AC9B-4B5D5C1D47E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{011905F1-1400-480E-AC9B-4B5D5C1D47E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{011905F1-1400-480E-AC9B-4B5D5C1D47E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{011905F1-1400-480E-AC9B-4B5D5C1D47E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7AEBD48-AFC8-41EC-82EA-8AD7184D306B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7AEBD48-AFC8-41EC-82EA-8AD7184D306B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7AEBD48-AFC8-41EC-82EA-8AD7184D306B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7AEBD48-AFC8-41EC-82EA-8AD7184D306B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D07F0ABB-4ED7-42DF-845A-D678CA5C1CC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D07F0ABB-4ED7-42DF-845A-D678CA5C1CC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D07F0ABB-4ED7-42DF-845A-D678CA5C1CC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D07F0ABB-4ED7-42DF-845A-D678CA5C1CC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D01F8DD0-40F3-48D8-8D92-5EB479AE45D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D01F8DD0-40F3-48D8-8D92-5EB479AE45D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D01F8DD0-40F3-48D8-8D92-5EB479AE45D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D01F8DD0-40F3-48D8-8D92-5EB479AE45D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68D40615-07A7-42BF-B3AE-75F99A23C098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D40615-07A7-42BF-B3AE-75F99A23C098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D40615-07A7-42BF-B3AE-75F99A23C098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D40615-07A7-42BF-B3AE-75F99A23C098}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

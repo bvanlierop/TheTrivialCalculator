@@ -1,0 +1,7 @@
+Coverage tool
+Overview of functionality
+Tracebility (features vs. tests)
+Version control with Git(hub)
+Check code analysis figures (cyclomatic complexity, etc)
+	-> Compare after Code Maid cleanup
+Duplicate code checker?
