@@ -1,4 +1,4 @@
-name: Build Web App
+name: The Trivial Calculator CI workflow
  
 on: [push]
  
@@ -25,5 +25,5 @@ jobs:
     
     - uses: actions/upload-artifact@v2
       with:	
-        name: ${{ env.name }}-name	
+        name: CalculatorGUI	
         path: ${{ github.workspace }}/ConsoleUI/bin/Release/*
