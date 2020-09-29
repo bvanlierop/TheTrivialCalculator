@@ -23,10 +23,6 @@ jobs:
     - name: Build and Publish Web App
       run: msbuild Calculator.sln /p:Configuration=Release
     - name: DotCover Github Actions wrapper
-     
-    - uses: dodopizza/dotcover-action@v1
-      with:
-        dotCoverCommand: cover
     
     - uses: actions/upload-artifact@v2
       with:	
