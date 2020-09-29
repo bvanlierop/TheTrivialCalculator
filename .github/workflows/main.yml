@@ -24,8 +24,9 @@ jobs:
       run: msbuild Calculator.sln /p:Configuration=Release
     - name: DotCover Github Actions wrapper
      
-    - name: DotCover
-      uses: dodopizza/dotcover-action@v1
+    - uses: dodopizza/dotcover-action@v1
+      with:
+        dotCoverCommand: cover
     
     - uses: actions/upload-artifact@v2
       with:	
